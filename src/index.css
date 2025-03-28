@@ -1,17 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 @import "tailwindcss";
 
+@theme {
+  --font-quicksand: "Quicksand", sans-serif;
+}
+
 * {
-  overflow: hidden;
+  background-color: #fafafa;
 }
 
-@media (min-width: 768px) {
-  .buttonSty {
-    display: block;
+/* @media (min-width: 541px) {
+  .widthSty {
+    width: 700px;
   }
-}
+} */
 
-@media (max-width: 767px) {
-  .buttonSty {
-    display: hidden;
-  }
-}
+/* @media (max-width: 54); */

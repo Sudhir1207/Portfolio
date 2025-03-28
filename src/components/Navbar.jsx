@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
         <div className={`mr-3  ${IsOpen ? "block " : "hidden"} md:block`}>
           <ul
-            className={`w-full gap-4 py-6 text-center md:flex md:w-auto md:items-center`}
+            className={`w-full gap-4 py-6 text-center font-quicksand md:flex md:w-auto md:items-center`}
           >
             <li className="mx-2 my-6 rounded p-3 transition duration-300 hover:shadow-md shadow-slate-500/50 hover:ring md:hover:scale-105  flex-shrink-0">
               About
@@ -41,10 +41,10 @@ const Navbar = () => {
             IsOpen ? "flex" : "hidden"
           } md:flex`}
         >
-          <button className="rounded border border-[#C4C4C4] p-2 transition duration-300 hover:border-slate-950">
+          <button className="rounded border border-[#C4C4C4] p-2 transition duration-300  font-quicksand hover:border-slate-950">
             Resume
           </button>
-          <button className="rounded border border-[#C4C4C4] p-2 transition duration-300 hover:border-slate-950">
+          <button className="rounded border border-[#C4C4C4] p-2 transition duration-300  font-quicksand hover:border-slate-950">
             Hire me
           </button>
         </div>
