@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+* {
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .buttonSty {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .buttonSty {
+    display: hidden;
+  }
+}
