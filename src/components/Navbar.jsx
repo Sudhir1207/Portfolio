@@ -4,7 +4,7 @@ import { Menu, X } from "lucide-react";
 const Navbar = () => {
   const [IsOpen, setIsOpen] = useState(false);
   return (
-    <div className="container mx-auto w-[95%] sticky top-0 z-50">
+    <div className="container mx-auto w-[95%] bg-white z-50">
       <div className="m-5 md:flex md:items-center md:justify-between">
         <div className="flex items-center justify-between w-full md:w-auto">
           <div className="w-20 cursor-pointer">
@@ -43,9 +43,6 @@ const Navbar = () => {
         >
           <button className="rounded border border-[#C4C4C4] p-2 transition duration-300  font-quicksand hover:border-slate-950">
             Resume
-          </button>
-          <button className="rounded border border-[#C4C4C4] p-2 transition duration-300  font-quicksand hover:border-slate-950">
-            Hire me
           </button>
         </div>
       </div>

@@ -5,14 +5,8 @@
   --font-quicksand: "Quicksand", sans-serif;
 }
 
-* {
-  background-color: #fafafa;
-}
-
-/* @media (min-width: 541px) {
-  .widthSty {
-    width: 700px;
+/* @media (max-width: 767px) {
+  .abtImg {
+    margin-top: 25px !important;
   }
 } */
-
-/* @media (max-width: 54); */
