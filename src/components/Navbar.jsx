@@ -19,18 +19,18 @@ const Navbar = () => {
         </div>
         <div className={`mr-3  ${IsOpen ? "block " : "hidden"} md:block`}>
           <ul
-            className={`w-full gap-4 py-6 text-center font-quicksand md:flex md:w-auto md:items-center`}
+            className={`w-full gap-4 py-6 text-center font-quicksand md:flex md:w-auto md:items-center `}
           >
-            <li className="mx-2 my-6 rounded p-3 transition duration-300 hover:shadow-md shadow-slate-500/50 hover:ring md:hover:scale-105  flex-shrink-0">
-              About
+            <li className="mx-2 my-6 rounded p-3 transition duration-300 hover:shadow-md shadow-slate-500/50 hover:ring md:hover:scale-105  flex-shrink-0 cursor-pointer">
+              <a href="#about">About</a>
             </li>
-            <li className="mx-2 my-6 rounded p-3 transition duration-300 hover:shadow-md  shadow-slate-500/50 hover:ring  md:hover:scale-105 flex-shrink-0 ">
+            <li className="mx-2 my-6 rounded p-3 transition duration-300 hover:shadow-md  shadow-slate-500/50 hover:ring  md:hover:scale-105 flex-shrink-0 cursor-pointer">
               Experience
             </li>
-            <li className="mx-2 my-6 rounded p-3 transition duration-300 hover:shadow-md  shadow-slate-500/50 hover:ring md:hover:scale-105 flex-shrink-0 ">
+            <li className="mx-2 my-6 rounded p-3 transition duration-300 hover:shadow-md  shadow-slate-500/50 hover:ring md:hover:scale-105 flex-shrink-0 cursor-pointer">
               Project
             </li>
-            <li className="mx-2 my-6 rounded p-3 transition duration-300 hover:shadow-md  shadow-slate-500/50 hover:ring  md:hover:scale-105 flex-shrink-0 ">
+            <li className="mx-2 my-6 rounded p-3 transition duration-300 hover:shadow-md  shadow-slate-500/50 hover:ring  md:hover:scale-105 flex-shrink-0 cursor-pointer">
               Contact
             </li>
             <li className="md:ml-6"></li>

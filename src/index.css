@@ -10,3 +10,7 @@
     margin-top: 25px !important;
   }
 } */
+
+html {
+  scroll-behavior: smooth;
+}
