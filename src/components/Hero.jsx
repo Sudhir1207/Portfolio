@@ -4,14 +4,14 @@ const Hero = () => {
   const scrollToAbout = () => {
     const abtSection = document.querySelector(".scr");
     if (abtSection) {
-      abtSection.scrollIntoView({ behavior: "smooth" });
+      abtSection.scrollIntoView({ behavior: "smooth", block: "end" });
     }
   };
   return (
     <div className="container  gap-1 flex flex-col justify-center items-center h-screen mx-auto p-3 sm:text-nowrap bg-white font-quicksand  ">
       <h1 className="font-bold py-4 text-center text-6xl">I'm Sudhir</h1>
 
-      <p className="font-light text-center text-2xl">
+      <p className="font-light text-center text-sm md:text-2xl">
         An aspiring web developer dedicated to building sleek, dynamic websites.
       </p>
       <div>

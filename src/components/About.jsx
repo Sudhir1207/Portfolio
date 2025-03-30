@@ -26,7 +26,7 @@ const About = () => {
         <img
           src="\img2.jpg"
           alt=""
-          className="w-[150px] h-[150px] sm:mt-2 md:mt-0 rounded-full abtImg object-cover"
+          className="w-[150px] h-[150px] sm:mt-2 md:mt-0 rounded-3xl abtImg object-cover relative md:top-[-12px]"
         />
       </div>
     </div>
