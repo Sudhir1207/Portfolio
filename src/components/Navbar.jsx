@@ -53,9 +53,11 @@ const Navbar = () => {
             IsOpen ? "flex" : "hidden"
           } md:flex`}
         >
-          <button className="rounded border border-[#C4C4C4] p-2 transition duration-300  font-quicksand hover:border-slate-950">
-            Resume
-          </button>
+          <a href="src\assets\sudhir.pdf" download>
+            <button className="rounded border border-[#C4C4C4] p-2 transition duration-300  font-quicksand hover:border-slate-950">
+              Resume
+            </button>
+          </a>
         </div>
       </div>
     </div>

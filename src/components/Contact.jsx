@@ -28,10 +28,18 @@ const Contact = () => {
       <div className="flex flex-col justify-center items-center gap-6 relative top-[150px]">
         <div className="flex justify-center items-center gap-3 ml-2">
           <a href="https://github.com/Sudhir1207?tab=repositories">
-            <img src="/github_logo.png" alt="" className="w-[25px]" />
+            <img
+              src="/github_logo.png"
+              alt=""
+              className="w-[25px] hover:scale-110"
+            />
           </a>
           <a href="https://www.linkedin.com/in/sudhir-r-94a5ab25b/">
-            <img src="linked_in.png" alt="" className="w-[43px]" />
+            <img
+              src="linked_in.png"
+              alt=""
+              className="w-[43px] hover:scale-110"
+            />
           </a>
         </div>
 
