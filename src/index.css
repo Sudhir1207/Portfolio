@@ -5,11 +5,23 @@
   --font-quicksand: "Quicksand", sans-serif;
 }
 
-/* @media (max-width: 767px) {
-  .abtImg {
-    margin-top: 25px !important;
+@media (max-width: 767px) {
+  .sndExp {
+    display: none !important;
   }
-} */
+  .sndExp2 {
+    display: block !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .sndExp2 {
+    display: none !important;
+  }
+  .sndExp {
+    display: block !important;
+  }
+}
 
 html {
   scroll-behavior: smooth;
