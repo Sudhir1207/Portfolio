@@ -2,7 +2,10 @@ import React from "react";
 
 const MySkills = () => {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center font-quicksand mt-5">
+    <div
+      id="Skills"
+      className="min-h-screen flex flex-col justify-center items-center font-quicksand mt-5"
+    >
       <div className="w-[70%] flex items-center gap-4">
         <hr className="flex-1" />
         <h1 className="text-3xl font-extrabold">My Skills</h1>

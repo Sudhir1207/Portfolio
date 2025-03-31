@@ -2,7 +2,10 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center font-quicksand mt-[40px]">
+    <div
+      id="experience"
+      className="min-h-screen flex flex-col justify-center items-center font-quicksand mt-[40px] "
+    >
       <div className="flex justify-center items-center w-[75%] gap-4">
         <hr className="flex-1" />
         <h1 className="text-3xl font-extrabold">Experience</h1>
@@ -11,7 +14,7 @@ const Experience = () => {
 
       <div className="flex flex-col md:flex-row p-4 w-[75%] mt-2">
         <div className="p-5">
-          <h1 className="text-nowrap ml-2 text-2xl font-medium">
+          <h1 className="text-nowrap text-2xl font-medium">
             Frontend Developer
           </h1>
           <p className="p-2">Iva Technos</p>
@@ -37,7 +40,7 @@ const Experience = () => {
       </div>
       <div className="flex flex-col md:flex-row p-4 w-[75%] mt-2">
         <div className="p-5 sndExp2">
-          <h1 className="text-nowrap ml-2 text-2xl font-medium">
+          <h1 className="text-nowrap text-2xl font-medium">
             Software Developer
           </h1>
           <p className="p-2">Workcohol</p>
