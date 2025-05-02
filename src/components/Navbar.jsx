@@ -8,10 +8,7 @@ const Navbar = () => {
       <div className="m-5 md:flex md:items-center md:justify-between">
         <div className="flex items-center justify-between w-full md:w-auto">
           <div className="w-20 cursor-pointer">
-            <img
-              src="https://1000logos.net/wp-content/uploads/2020/10/Fight-Club-Logo.jpg"
-              alt="Logo"
-            />
+            <img src="/sr_logo-modified.png" alt="Logo" />
           </div>
           <button onClick={() => setIsOpen(!IsOpen)} className="md:hidden ml-4">
             {IsOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}

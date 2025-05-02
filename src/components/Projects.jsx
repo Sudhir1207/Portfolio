@@ -38,7 +38,13 @@ const Projects = () => {
             </ul>
           </div>
           <div className="flex mt-3 gap-x-2 ml-4">
-            <img src="/github.svg" alt="" className="w-[20px]" />
+            <a
+              href="https://github.com/Sudhir1207/chat_app-"
+              className="hover:scale-110"
+            >
+              <img src="/github.svg" alt="" className="w-[20px]" />
+            </a>
+
             <img
               src="/link1.svg"
               alt=""
@@ -71,7 +77,13 @@ const Projects = () => {
             </ul>
 
             <div className="flex mt-3 gap-x-2">
-              <img src="/github.svg" alt="" className="w-[20px]" />
+              <a
+                href="https://github.com/Sudhir1207/SpendSmart"
+                className="hover:scale-110"
+              >
+                <img src="/github.svg" alt="" className="w-[20px]" />
+              </a>
+
               <img
                 src="/link1.svg"
                 alt=""
@@ -116,7 +128,12 @@ const Projects = () => {
               <li>CSS</li>
             </ul>
             <div className="flex gap-2 mt-2">
-              <img src="/github.svg" alt="" className="w-5" />
+              <a
+                href="https://github.com/Sudhir1207/Dish_Delight"
+                className="hover:scale-110"
+              >
+                <img src="/github.svg" alt="" className="w-5" />
+              </a>
               <img src="link1.svg" alt="" className="w-3 hover:scale-120" />
             </div>
           </div>
@@ -145,7 +162,13 @@ const Projects = () => {
               <li>Mongo Db</li>
             </ul>
             <div className="flex gap-2 mt-2">
-              <img src="/github.svg" alt="" className="w-5" />
+              <a
+                href="https://github.com/Sudhir1207/Todo-with-MERN"
+                className="hover:scale-110"
+              >
+                <img src="/github.svg" alt="" className="w-5" />
+              </a>
+
               <img src="link1.svg" alt="" className="w-3 hover:scale-120" />
             </div>
           </div>
@@ -174,7 +197,13 @@ const Projects = () => {
               <li>Nasa's Open API</li>
             </ul>
             <div className="flex gap-2 mt-2">
-              <img src="/github.svg" alt="" className="w-5" />
+              <a
+                href="https://github.com/Sudhir1207/APOD-PROJECT"
+                className="hover:scale-110"
+              >
+                <img src="/github.svg" alt="" className="w-5" />
+              </a>
+
               <img src="link1.svg" alt="" className="w-3 hover:scale-120" />
             </div>
           </div>
@@ -201,7 +230,13 @@ const Projects = () => {
               <li>Tailwind CSS</li>
             </ul>
             <div className="flex gap-2 mt-2">
-              <img src="/github.svg" alt="" className="w-5" />
+              <a
+                href="https://github.com/Sudhir1207/Car-Rental-LP"
+                className="hover:scale-110"
+              >
+                <img src="/github.svg" alt="" className="w-5" />
+              </a>
+
               <img src="link1.svg" alt="" className="w-3 hover:scale-120" />
             </div>
           </div>

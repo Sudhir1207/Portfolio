@@ -33,14 +33,14 @@ const Experience = () => {
       </div>
       <div className="flex flex-col md:flex-row p-4 w-[75%] mt-2">
         <div className="p-5 sndExp2">
-          <span className="text-2xl font-medium text-nowrap">
+          <h1 className="text-nowrap text-2xl font-medium">
             Software Developer
-          </span>
+          </h1>
           <p className="p-2">Workcohol</p>
           <hr />
           <p className="p-2 text-nowrap">January 2025 - March 2025</p>
         </div>
-        <p className="lg:mt-4 mr-4">
+        <p className="lg:mt-4">
           Worked on building a social community platform as part of a full-stack
           web development internship with Workcohol, Chennai. Developed
           responsive user interfaces using React, Next.js, and Tailwind CSS, and
@@ -52,7 +52,7 @@ const Experience = () => {
         <div className="border-l-[1px] border-black mr-2 sm:hidden md:block"></div>
         <div className="p-5 md:block sndExp">
           <h1 className="text-nowrap ml-2 text-2xl font-medium">
-            Backend Developer
+            Software Developer
           </h1>
           <p className="p-2">Workcohol</p>
           <hr />
