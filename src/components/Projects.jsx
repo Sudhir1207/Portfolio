@@ -6,16 +6,16 @@ const Projects = () => {
       id="projects"
       className="min-h-screen flex flex-col justify-center items-center p-5 font-quicksand mt-1 bg-[#F2F2F2]"
     >
-      <div className="flex items-center w-[72%] gap-2">
+      <div className="flex items-center w-[72%] gap-2 mt-5">
         <hr className="flex-1" />
         <h1 className="font-bold text-3xl">Projects</h1>
         <hr className="flex-1" />
       </div>
       <div className=" flex flex-col md:flex-row gap-4 p-6 w-[75%]">
         <img
-          src="/jd.jpg"
+          src="/Echo.png"
           alt=""
-          className="max-w-full md:max-w-[35%] h-auto object-contain rounded-3xl"
+          className=" object-contain rounded-2xl lg:max-w-xl"
         />
         <div>
           <h1 className="ml-3 font-extrabold text-xl">
