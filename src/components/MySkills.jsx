@@ -28,7 +28,7 @@ const MySkills = () => {
           <img
             src="/Bootstrap_logo.svg.png"
             alt=""
-            className="w-[80px] h-[70px]"
+            className="w-[80px] h-[65px]"
           />
         </div>
         <div className="flex flex-col md:flex-row gap-8 mt-3 p-4">
@@ -39,15 +39,15 @@ const MySkills = () => {
             className="w-[70px] h-[70px] object-contain"
           />
           <img src="/express-js.png" alt="" className="w-[70px] h-[70px]" />
-          <img src="/django_rest.png" alt="" className="w-[70px] h-[70px]" />
+          <img src="/django-icon.svg" alt="" className="w-[65px] h-[65px]" />
           <img src="/mysql.png" alt="" className="w-[70px] h-[70px]" />
         </div>
         <div className="flex flex-col md:flex-row gap-9 mt-3 p-4 justify-center items-center">
+          <img src="/mongodb.svg" alt="" className="w-[55px] h-[65px]" />
           <img src="/github_logo.png" alt="" className="w-[65px] h-[65px]" />
           <img src="/java.png" alt="" className="w-[42px] h-[70px]" />
           <img src="/cpp.png" alt="" className="w-[55px] h-[65px]" />
           <img src="/python.svg" alt="" className="w-[55px] h-[65px]" />
-          <img src="/mongodb.svg" alt="" className="w-[55px] h-[65px]" />
         </div>
       </div>
     </div>
