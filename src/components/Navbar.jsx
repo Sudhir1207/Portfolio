@@ -50,7 +50,7 @@ const Navbar = () => {
             IsOpen ? "flex" : "hidden"
           } md:flex`}
         >
-          <a href="src\assets\sudhir.pdf" download>
+          <a href="https://drive.google.com/file/d/1qpTNj5vx_DJgFhwxTRcoA3rAanLLpyW9/view?usp=drive_link">
             <button className="rounded border border-[#C4C4C4] p-2 transition duration-300  font-quicksand hover:border-slate-950">
               Resume
             </button>
